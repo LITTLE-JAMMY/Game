@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/bbdccb4e58.js" crossorigin="anonymous"></script>
+    <title>Balloon Pop Games</title>
+</head>
+<link rel="stylesheet" href="game.css">
+<body>
+    <h1 id="playAgain">Balloons Popping Game</h1>
+    <h3 id="message">Read the instructions first before you play.</h3>
+    <h5 id="textMessage"><b>Note:</b>It plays pop song when you click balloon and boom song when you click bomb!!</h5>
+    <div>
+        <button>Time Left &nbsp; <i class="fas fa-hourglass-start"></i> <span id="countdown"> 20</span>s</button>
+        <button>Score &nbsp; <i class="fas fa-paw"></i> <span id="score">  0</span></button> 
+        <button id ="play"> <i class="fas fa-play-circle"></i> Play</button> 
+        <button id ="pause"> <i class="fas fa-pause-circle"></i> Pause</button>
+        <button id ="tryAgain"> <i class="fas fa-redo-alt"></i> Try Again</button>
+        <button id="reload"> <i class="fas fa-redo-alt"></i> Reload</button>
+    </div>
+    <h4>Oops!Time just runs out.  Try Again!!</h4>
+    <h6 id="word"> You have popped all the balloons!</h6>
+    <div id ="balloons">
+        <div id="boom1" class="boom"></div>
+        <div id="balloon1" class="balloon"></div>
+        <div id="balloon2" class="balloon"></div>
+        <div id="boom2"class="boom"></div>
+        <div id="balloon3"class="balloon"></div>
+        <br>
+        <div id="balloon4"class="balloon"></div>
+        <div id="boom3"class="boom"></div>
+        <div id="balloon5"class="balloon"></div>
+        <div id="boom4"class="boom"></div>
+        <br>
+        <div id="balloon6"class="balloon"></div>
+    </div>
+    <button id="start">Start <i class="fas fa-play"></i></button>
+    <br><br>
+    <img  id="image" src="../image/giphy (2).gif" alt="Winner">
+    <img id="image2" src="../image/giphy (3).gif" alt ="Loser">
+    <div id="information">  
+    <details id="credit">
+        <summary>Credit for the song</summary>
+        <p>I use the sounds from online sources esspeically <a href="https://mixkit.co/free-sound-effects/" >https://mixkit.co/free-sound-effects/</a>.</p>
+    </details>
+    <br><br><br>
+    <details id="int">
+        <summary>How to play?</summary>
+        <pre> <li>Click Start button to start playing your game.</li> 
+            <li>You can click the ballons to get points but
+                 don't click.</li>
+            <li>If you click balloons, you will get ponits
+                 and if you click bombs,
+                  your score will dicrease.</li>
+            <li>There are many balloons and 
+                bombs so be careful.</li>
+            <li>Click play to start playing a song
+                 and click pause to stop the song.</li>
+</pre>
+    </details>
+    <br><br>
+    <details id="hints">
+        <summary>Some Hints</summary>
+        <p>There are 6 balloons and 4 bombs among the given once. You have only one chance for them.</p>
+    </details>
+    <br><br>
+    <details id="help">
+        <summary>Helper</summary>
+            <p>Thanks to That Pan Institite and Teacher Eric Kyaw for helping me! Thanks! <p>
+    </details>
+    <br><br>
+    <details id="creator">
+        <summary>Creator</summary>
+            <p>!Make with love by Zwe Moe Tun Zin! Thanks for playing!! <p>
+    </details>
+    <br><br>
+    <details id="giphy">
+        <summary>Credit for the photo</summary>
+            <p>I use some photos which are on the social media, mostly use<a href="https://giphy.com/" >https://giphy.com/</a> Here, you can see it! <p>
+                <iframe src="https://giphy.com/embed/CoND5j6Bn1QZUgm1xX" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/crab-pikaole-crabby-CoND5j6Bn1QZUgm1xX">via GIPHY</a></p>
+    </details>
+    <br><br>
+    <details id="giphy2">
+        <summary>Credit for the photo</summary>
+            <p>I use some photos which are on the social media, mostly use<a href="https://giphy.com/" >https://giphy.com/</a> Here, you can see it! <p>
+                <iframe src="https://giphy.com/embed/2gtoSIzdrSMFO" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/winner-2gtoSIzdrSMFO">via GIPHY</a></p>
+    </details>
+</div>
+</body>
+<script src="game.js"></script>
+</html>
